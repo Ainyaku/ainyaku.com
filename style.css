@@ -1,0 +1,31 @@
+/* Styling for the body and html */
+body, html {
+  height: 100%;
+  background-color: #00c0bd;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Styling for the parallax effect */
+.parallax {
+  /* The image used */
+  background-image: url("あいにゃく-Ainyaku.svg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* The background-attachment creates the parallax scrolling effect */
+  background-attachment: fixed; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Styling for the text */
+.text {
+  font-family: 'Alata', sans-serif;
+  height: 1000px;
+  background-color: #00c0bd;
+  font-size: 36px;
+  padding: 20px;
+}
