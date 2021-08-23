@@ -1,0 +1,21 @@
+/* Styling for the body and html */
+html, body {
+  height: 100%;
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+}
+/* Styling for the text */
+.text {
+  font-family: 'Alata', sans-serif;
+  height: 40px;
+  background-color: #00c0bd;
+  font-size: 36px;
+  padding: 20px;
+}
+
+.docsembed {
+    height: calc(100% - 64px);
+    width: 100%;
+    padding-top: 0px;    
+}
