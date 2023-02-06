@@ -98,5 +98,6 @@ _Last updated 2/5/2023_
 
 <p align="center">
 <button name="button" onclick="window.location.href='https://ainyaku.com/share-crd-linux-article.html';">Share</button>
+<button name="button" onclick="print();">Print</button>
 <button name="button" onclick="window.location.href='https://ainyaku.com';">Back to ainyaku.com</button>
 </p>
