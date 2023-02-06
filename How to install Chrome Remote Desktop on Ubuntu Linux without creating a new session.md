@@ -96,9 +96,5 @@ All of the information in this tutorial comes from [this outdated Superuser Stac
 
 _Last updated 2/5/2023_
 
-[button url="http://www.google.com"]
-<button name="button" onclick="http://www.google.com">Click me</button>
-[Click me](http://www.google.com){: .btn}
-
-| [Share](https://ainyaku.com/share-crd-linux-article.html)         | [Back to ainyaku.com](https://ainyaku.com/)
-|---------------|--------------------|
+<button name="button" onclick="window.location.href='https://ainyaku.com/share-crd-linux-article.html';">Share</button>
+<button name="button" onclick="window.location.href='https://ainyaku.com/';"Back to ainyaku.com</button>
