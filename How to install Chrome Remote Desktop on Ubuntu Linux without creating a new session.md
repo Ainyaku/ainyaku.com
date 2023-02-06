@@ -101,8 +101,7 @@ _Last updated 2/5/2023_
     title: 'How to install Chrome Remote Desktop on Ubuntu Linux without creating a new session',
     text: 'When installing Chrome Remote Desktop on Ubuntu Linux the standard way, it will try to create a new session. If you instead do not want to create a new session and only mirror what is currently on the computer’s screen, follow these steps.',
     url: 'https://🔄️.ainyaku.com/CRD-Ubuntu',
-  });
-window.location.href = 'https://ainyaku.com/How%20to%20install%20Chrome%20Remote%20Desktop%20on%20Ubuntu%20Linux%20without%20creating%20a%20new%20session';">Share</button>
+  });">Share</button>
 <button name="button" onclick="print();">Print</button>
 <button name="button" onclick="window.location.href='https://ainyaku.com';">Back to ainyaku.com</button>
 </p>
