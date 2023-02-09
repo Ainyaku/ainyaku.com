@@ -6,19 +6,19 @@ With Windows 11 came the introduction of the Windows Subsystem for Android™, w
 
 1. Install the [Amazon Appstore](https://apps.microsoft.com/store/detail/amazon-appstore/9NJHK44TTKSX) to your PC and follow the instructions.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width="400" src="https://user-images.githubusercontent.com/87048351/217704976-57e6e5eb-8584-46ee-a2ab-eed7177678a7.png">
+    <img width="400" src="https://user-images.githubusercontent.com/87048351/217704976-57e6e5eb-8584-46ee-a2ab-eed7177678a7.png">
 
 2. Download and extract [AndroidAutoInstall.zip](https://drive.google.com/u/0/uc?id=1gtdcsUlZiXYtP5kW9PRFijNYmEoEtQqh&export=download) to a folder on your PC.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Note: You may see a message saying `AndroidAutoinstall.zip is not commonly downloaded and may be dangerous.` Just click on the down arrow and click `Keep`, and you can even view the contents of the zip file yourself if you really don't believe that it is perfectly safe._
+    _Note: You may see a message saying `AndroidAutoinstall.zip is not commonly downloaded and may be dangerous.` Just click on the down arrow and click `Keep`, and you can even view the contents of the zip file yourself if you really don't believe that it is perfectly safe._
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width="400" src="https://user-images.githubusercontent.com/87048351/217703811-f54592be-b014-4567-b941-1da29f7cd1dc.png">
+    <img width="400" src="https://user-images.githubusercontent.com/87048351/217703811-f54592be-b014-4567-b941-1da29f7cd1dc.png">
 
 3. Search for `Windows Subsystem for Android™ Settings` in the Windows search bar and open it, click on the Developer tab, then turn on Developer mode. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width="600" src="https://user-images.githubusercontent.com/87048351/217704731-2bc315c2-e143-494b-92f6-c1836df69541.png">
+    <img width="600" src="https://user-images.githubusercontent.com/87048351/217704731-2bc315c2-e143-494b-92f6-c1836df69541.png">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Note: When you install an APK for the first time ever, you will see an error that says `adb.exe: device unauthorized.` See [Common Error A](#error-a) to fix this._
+    _Note: When you install an APK for the first time ever, you will see an error that says `adb.exe: device unauthorized.` See [Common Error A](#error-a) to fix this._
 
 ## Installing an APK
 
@@ -26,13 +26,13 @@ With Windows 11 came the introduction of the Windows Subsystem for Android™, w
 
 2. Open the APK you'd like to install with the `Install APK.bat` file from inside the .zip folder (set it as default so you can just double click on the APK next time).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Note: You may see a message saying `Windows protected your PC`. Just click `More info` and then `Run anyway`, and you can even view the contents of the zip file yourself if you really don't believe that it is perfectly safe._
+    _Note: You may see a message saying `Windows protected your PC`. Just click `More info` and then `Run anyway`, and you can even view the contents of the zip file yourself if you really don't believe that it is perfectly safe._
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img width="401" alt="Screenshot 2022-04-17 002707" src="https://user-images.githubusercontent.com/87048351/163703034-68cf4347-07fd-4a6e-b326-1df7435f3a17.png"><img width="401" alt="Screenshot 2022-04-17 002740" src="https://user-images.githubusercontent.com/87048351/163703033-11f4d5a3-8c38-478c-be0b-842ff5d7a34a.png">
+    <img width="401" alt="Screenshot 2022-04-17 002707" src="https://user-images.githubusercontent.com/87048351/163703034-68cf4347-07fd-4a6e-b326-1df7435f3a17.png"><img width="401" alt="Screenshot 2022-04-17 002740" src="https://user-images.githubusercontent.com/87048351/163703033-11f4d5a3-8c38-478c-be0b-842ff5d7a34a.png">
 
 3. If the installer says "Success", just search for the name of the app you just installed in the search bar in Windows and open it.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_Note: You can reinstall an app that's already installed, or even currently open if you want to update it._
+    _Note: You can reinstall an app that's already installed, or even currently open if you want to update it._
 
 ## Common Errors
 
