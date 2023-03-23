@@ -18,7 +18,7 @@ Now, try to connect to the computer using Chrome Remote Desktop on another devic
 
 <img width="400" src="https://user-images.githubusercontent.com/87048351/216847379-26bf946e-b132-4bdc-b1b5-82e8f96920f3.jpg">
 
-If you see this message, then everything as intended so far. You may now disconnect from the computer.
+If you see this message, then everything is working as intended so far. You may now disconnect from the computer.
 
 ## Modifying Chrome Remote Desktop to use the current session
 
