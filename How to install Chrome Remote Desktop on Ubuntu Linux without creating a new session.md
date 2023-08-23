@@ -1,5 +1,7 @@
 # How to install Chrome Remote Desktop on Ubuntu Linux without creating a new session
 
+> **Important:**  _This method of getting Chrome Remote Desktop to work on Ubuntu seems to no longer work from my experience. Instead, I recommend using [DWService](https://www.dwservice.net/), a different browser based remote desktop software, that has many more features, works fine on Linux and Windows, and is completely free._
+
 ## Introduction
 
 When installing Chrome Remote Desktop on Ubuntu Linux the standard way, it will try to create a new session and show this message instead of showing you what is currently on the computer's screen:
@@ -63,7 +65,7 @@ To make sure this worked, connect to the computer again using Chrome Remote Desk
 
 All of the information in this tutorial comes from [this outdated Superuser StackExtange post](https://superuser.com/questions/778028/configuring-chrome-remote-desktop-with-ubuntu-gnome-14-04/850359#850359), and from my own experience with trying to get this solution to work on the latest version of Chrome Remote Desktop in 2023.
 
-_Last updated 6/6/2023_
+_Last updated 8/23/2023_
 
 <p align="center">
 <button name="button" onclick="navigator.share({
