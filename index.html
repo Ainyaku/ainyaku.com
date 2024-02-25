@@ -1,54 +1,347 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ainyaku</title>
+    <meta name="description" content="Hey, I'm Ainyaku" />
+    <meta property="og:title" content="Ainyaku" />
+    <meta property="og:description" content="Hey, I'm Ainyaku" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
 
-<!-- Please ignore how extremely bad this code is, I plan on making it much better when the full website comes out (aka when I finally stop procrastinating) -->
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: "Alata";
+        font-size: 16px;
+      }
 
-<html><head>
- <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KYZ1XBV77R"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
 
-  gtag('config', 'G-KYZ1XBV77R');
-</script>
-<link rel="shortcut icon" type="image/x-icon" href="ainyaku.png" />
-<style type="text/css">* {cursor: url(https://cur.cursors-4u.net/anime/ani-12/ani1136.ani), url(https://cur.cursors-4u.net/anime/ani-12/ani1136.gif), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2011/12/14/singing-hatsune-miku.html" target="_blank" title="Singing Hatsune Miku"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Singing Hatsune Miku" style="position:absolute; top: 0px; right: 0px;" /></a>
-<Title>あいにゃく / Ainyaku</Title>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
-</style>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <!-- Google tag (gtag.js) -->
 
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="parallax"></div>
-<div class="text" style="height: 0px;">
-<center><strong>Hey, I'm Ainyaku</strong></center>
-<center><small><small><small>Website coming soon</small></small></small></center>
-<center><small><small><small><small><small>Socials: <a  href="https://www.youtube.com/channel/UC63HWWHHlNmbL7ywFsD5G4w?sub_confirmation=1" class="URL">YouTube</a> - <a href="https://scratch.mit.edu/users/ProcodeAH116/" class="URL">Scratch</a> - <a href="https://github.com/Ainyaku/" class="URL">GitHub</a> - <a href="https://open.spotify.com/user/315jpkck5woakggl7x5tzcd2ibha?si=b5a976f4be014896" class="URL">Spotify</a> - <a href="https://stats.fm/ainyaku" class="URL">Spotistats</a> - <a href="https://steamcommunity.com/id/ainyaku" class="URL">Steam</a> - <a href="https://scoresaber.com/u/76561199106970981" class="URL">ScoreSaber</a> - <a href="https://www.beatleader.xyz/u/76561199106970981" class="URL">BeatLeader</a> - <a href="https://osu.ppy.sh/users/ainyaku" class="URL">osu!</a></small></small></small></small></small></center>
-    <center><small><small><small><small><small><small>Other: 
-    <a href="https://bombmanual.ainyaku.com" class="URL">KTANE Simplified Bomb Manual</a> - <a href="https://vroidhelp.ainyaku.com" class="URL">Vroid Studio Help Simplified Version</a> - <a href="https://🔄.ainyaku.com/JavaFix" class="URL">Minecraft Java Launcher Gray Screen Fix</a> - <a href="https://🔄.ainyaku.com/OsuNoPC" class="URL">Play osu! lazer on a Samsung phone without a PC or drawing tablet</a> - <a href="https://ainyaku.com/How%20to%20install%20Chrome%20Remote%20Desktop%20on%20Ubuntu%20Linux%20without%20creating%20a%20new%20session" class="URL">Install Chrome Remote Desktop on Ubuntu without creating a new session</a> - <a href="https://ainyaku.com/Installing%20Android%20APKs%20on%20Windows%2011" class="URL">Installing Android APKs on Windows 11</a> - <a href="https://github.com/Ainyaku/Beat-Saber-Song-and-Mod-Installer" class="URL">Beat Saber Song and Mod Installer</a> - <a href="https://github.com/Ainyaku/USC-Song-Installer" class="URL">USC Song Installer</a> - <a href="https://unimaps.ainyaku.com/" class="URL">University Google Maps</a></small></small></small></small></small></small></center>
-   <center><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSclp4XAQC3j8voAowo3jDrbK4o6bGU6sjjKgKI3k1zgC7BYWA/viewform?embedded=true" width="320" height="530" frameborder="0" marginheight="0" marginwidth="0" style="
-    padding-top: 200px;
-    width: 330px;
-">Loading…</iframe></center>
-    <center><iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTtq6GeSJQi-gz40QkeXFaN3dr861pKDStr1cjrdrPuOBbuttXncJ4K7gbhCz-UtpxCc80Iy28S3jFZ/pubhtml?widget=true&amp;headers=false" style="height: 160px;width: 102.667;width: 294px;"></iframe></center> 
- 
-    <center><small><small><small><small><small>Thanks mizu for dark theme idea</small></small></small></small></small></center>
-        
-    <center><center><small><small><small><small><small><a href="https://github.com/Ainyaku/ainyaku.com" class="URL">View site files on GitHub</a></small></small></small></small></small></center></center>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://ainyaku.com/ainyaku.png"
+    />
 
-    <center><center><small><small><small><small><small><a href="https://web.archive.org/web/*/https://ainyaku.com" class="URL">View previous versions of this website</a></small></small></small></small></small></center></center>
+    <style>
+      html, body {
+          cursor: url("https://cur.cursors-4u.net/anime/ani-12/ani1136.gif"), default;
+      }
+    </style>
 
-        <center style=" height: 0px;"><img src="ainyaku.png" style="
-    padding-top: 30px;
-    width: 256px;
-    height: 256px;
-"></center>
-</div>
+    <!-- This website was made using teleporthq.io -->
+    <script
+      async=""
+      src="https://www.googletagmanager.com/gtag/js?id=G-KYZ1XBV77R"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-KYZ1XBV77R');
+    </script>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div class="parallax">
+          <div class="home-container02">
+            <span class="home-text">Ainyaku</span>
+          </div>
+        </div>
+        <h1 class="home-text01">
+          <span>Hey, I'm Ainyaku</span>
+          <br />
+        </h1>
+        <div class="home-container03">
+          <div class="section">
+            <h1 class="section-title">Socials</h1>
+            <a
+              href="https://twitter.com/ainyaku"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="section-button"
+            >
+              <span>Twitter</span>
+              <br />
+            </a>
+            <a
+              href="https://github.com/Ainyaku/"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="section-button"
+            >
+              <span>GitHub</span>
+              <br />
+            </a>
+            <a
+              href="https://open.spotify.com/user/315jpkck5woakggl7x5tzcd2ibha?si=b5a976f4be014896"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="section-button"
+            >
+              Spotify
+            </a>
+            <a
+              href="https://stats.fm/ainyaku"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="section-button"
+            >
+              <span>Spotistats</span>
+              <br />
+            </a>
+            <a
+              href="https://scoresaber.com/u/76561199106970981"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="section-button"
+            >
+              <span>ScoreSaber</span>
+              <br />
+            </a>
+            <a
+              href="https://www.beatleader.xyz/u/76561199106970981"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="section-button"
+            >
+              <span>BeatLeader</span>
+              <br />
+            </a>
+            <a
+              href="https://osu.ppy.sh/users/ainyaku"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="section-button"
+            >
+              <span>osu!</span>
+              <br />
+            </a>
+            <a
+              href="https://steamcommunity.com/id/ainyaku"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="section-button"
+            >
+              <span>Steam</span>
+              <br />
+            </a>
+            <a
+              href="https://www.youtube.com/@ainyaku?sub_confirmation=1"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="section-button"
+            >
+              YouTube
+            </a>
+            <a
+              href="https://www.instagram.com/ainyaku_"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="section-button"
+            >
+              <span>Instagram</span>
+              <br />
+            </a>
+            <a
+              href="https://www.reddit.com/u/ainyaku"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="section-button"
+            >
+              <span>Reddit</span>
+              <br />
+            </a>
+            <a
+              href="https://www.twitch.tv/ainyaku"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="section-button"
+            >
+              <span>Twitch</span>
+              <br />
+            </a>
+            <a
+              href="https://scratch.mit.edu/users/ProcodeAH116/"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="section-button"
+            >
+              Scratch
+            </a>
+          </div>
+          <div class="home-container05">
+            <div class="section">
+              <h1 class="section-title">
+                <span>Projects</span>
+                <br />
+              </h1>
+              <a
+                href="https://bombmanual.ainyaku.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="section-button"
+              >
+                KTANE Simplified Bomb Defusal Manual
+              </a>
+              <a
+                href="https://unimaps.ainyaku.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="section-button"
+              >
+                <span>University Google Maps</span>
+                <br />
+              </a>
+              <a
+                href="https://github.com/Ainyaku/Beat-Saber-Song-and-Mod-Installer"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="section-button"
+              >
+                <span>Beat Saber Song and Mod Installer</span>
+                <br />
+              </a>
+              <a
+                href="https://github.com/Ainyaku/USC-Song-Installer"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="section-button"
+              >
+                <span>Unnamed SDVX Clone Song Installer</span>
+                <br />
+              </a>
+              <a
+                href="https://vroidhelp.ainyaku.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="section-button"
+              >
+                VRoid Studio Beta Help Simplified Version
+              </a>
+            </div>
+            <div class="section">
+              <h1 class="section-title">
+                <span>Articles</span>
+                <br />
+              </h1>
+              <a
+                href="https://ainyaku.com/Installing%20Android%20APKs%20on%20Windows%2011"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="section-button"
+              >
+                <span>Install Android APKs on Windows 11</span>
+                <br />
+              </a>
+              <a
+                href="https://ainyaku.com/How%20to%20install%20Chrome%20Remote%20Desktop%20on%20Ubuntu%20Linux%20without%20creating%20a%20new%20session"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="section-button"
+              >
+                Install Chrome Remote Desktop on Ubuntu
+              </a>
+              <a
+                href="https://xn--6u8h.ainyaku.com/JavaFix"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="section-button"
+              >
+                Minecraft Launcher Gray Screen Fix
+              </a>
+              <a
+                href="https://xn--6u8h.ainyaku.com/OsuNoPC"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="section-button"
+              >
+                <span>Play osu! lazer on a Samsung phone without a PC</span>
+                <br />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="home-container08">
+          <div class="home-container09 section">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSclp4XAQC3j8voAowo3jDrbK4o6bGU6sjjKgKI3k1zgC7BYWA/viewform?embedded=true"
+              scrolling="no"
+              class="home-iframe"
+            ></iframe>
+            <div class="home-container10">
+              <iframe
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTtq6GeSJQi-gz40QkeXFaN3dr861pKDStr1cjrdrPuOBbuttXncJ4K7gbhCz-UtpxCc80Iy28S3jFZ/pubhtml?widget=true&amp;amp;headers=false"
+                class="home-iframe1"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="home-container11">
+          <div class="home-container12 section">
+            <a
+              href="https://github.com/Ainyaku/ainyaku.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="section-button"
+            >
+              View site files on GitHub
+            </a>
+            <a
+              href="https://web.archive.org/web/*/https://ainyaku.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="section-button"
+            >
+              <span>View previous versions of this website</span>
+              <br />
+            </a>
+          </div>
+          <img
+            alt="image"
+            src="https://ainyaku.com/ainyaku.png"
+            class="home-image"
+          />
+        </div>
+      </div>
+    </div>
   </body>
 </html>
-
-<!-- small -->

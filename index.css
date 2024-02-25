@@ -1,0 +1,115 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #00e2e0;
+}
+.home-container02 {
+  flex: 0 0 auto;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-text {
+  color: var(--dl-color-gray-white);
+  font-size: 15vw;
+  font-family: "Alata";
+  font-weight: 700;
+  line-height: 1.15;
+  animation-name: fadeInDown;
+  text-transform: none;
+  animation-delay: 0s;
+  text-decoration: none;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.home-text01 {
+  width: auto;
+  font-size: 45px;
+  align-self: center;
+  text-align: center;
+  padding-top: 50px;
+  animation-name: fadeInUp;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.home-container03 {
+  gap: 5%;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding-top: 50px;
+  justify-content: center;
+}
+.home-container05 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-container08 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.home-container09 {
+  align-items: flex-start;
+  padding-top: 10px;
+  padding-left: 1px;
+  margin-bottom: 0px;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+.home-iframe {
+  width: 383px;
+  height: 394px;
+}
+.home-container10 {
+  flex: 0 0 auto;
+  display: flex;
+  margin-top: 12px;
+  align-items: flex-start;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  flex-direction: column;
+  padding-bottom: 10px;
+  background-color: var(--dl-color-gray-white);
+}
+.home-iframe1 {
+  width: 232px;
+  height: 362px;
+}
+.home-container11 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-container12 {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.home-image {
+  width: 300px;
+  object-fit: cover;
+  padding-top: 30px;
+}
