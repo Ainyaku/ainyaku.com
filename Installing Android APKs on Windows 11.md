@@ -1,6 +1,8 @@
 # Installing Android APKs on Windows 11
 
-With Windows 11 came the introduction of the Windows Subsystem for Android™, which allows you to install Android apps to your PC using the Amazon Appstore. The only issue with this is that the Amazon Appstore is very limited and dosen't offer many apps, but there is a simple solution. Installing APKs lets you install any app you want, including a better appstore like the [Aurora Store](https://f-droid.org/packages/com.aurora.store/#:~:text=suggested), which lets you download any app that is already on the Play Store.
+> **Note:**  _[Microsoft has announced that the Windows Subsystem for Android™️ will no longer be supported as of March 5th 2025.](https://www.windowscentral.com/software-apps/windows-11/microsoft-is-killing-support-for-running-android-apps-on-windows-11) According to Microsoft, Android apps installed before this date will still work, but you will not be able to install new apps after WSA is discontinued. Because of this, I recommend installing the [Aurora Store](https://f-droid.org/packages/com.aurora.store/#:~:text=suggested) using this tutorial before March 5th 2025 so you can keep using it after the discontinuation._
+
+With Windows 11 came the introduction of the Windows Subsystem for Android™, which allows you to install Android apps to your PC using the Amazon Appstore. The only issue with this is that the Amazon Appstore is very limited and dosen't offer many apps, but there is a simple solution. InstInstallingalling APKs lets you install any app you want, including a better appstore like the [Aurora Store](https://f-droid.org/packages/com.aurora.store/#:~:text=suggested), which lets you download any app that is already on the Play Store.
 
 ## First Time Setup
 
