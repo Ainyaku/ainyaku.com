@@ -127,8 +127,12 @@
   margin-top: 20px;
   margin-bottom: 0px;
 }
+.home-link24 {
+  display: contents;
+}
 .home-image {
   width: 300px;
   object-fit: cover;
   padding-top: 30px;
+  text-decoration: none;
 }
