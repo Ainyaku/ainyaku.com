@@ -16,9 +16,9 @@ With Windows 11 came the introduction of the Windows Subsystem for Android™, w
 
     <img width="400" src="https://user-images.githubusercontent.com/87048351/217703811-f54592be-b014-4567-b941-1da29f7cd1dc.png">
 
-3. Search for `Windows Subsystem for Android™ Settings` in the Windows search bar and open it, click on the Developer tab, then turn on Developer mode. 
+3. Search for `Windows Subsystem for Android™` in the Windows search bar and open it, click on the _Advanced settings_ tab, then turn on Developer mode. 
 
-    <img width="600" src="https://user-images.githubusercontent.com/87048351/217704731-2bc315c2-e143-494b-92f6-c1836df69541.png">
+    ![image](https://github.com/user-attachments/assets/226d9ad4-ad8a-4e4b-a201-e48fa4135fff)
 
     _Note: When you install an APK for the first time ever, you will see an error that says `adb.exe: device unauthorized.` See [Common Error A](#error-a) to fix this._
 
