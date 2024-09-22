@@ -16,7 +16,7 @@ Go to [Chrome Remote Desktop's website](https://remotedesktop.google.com/access/
 
 _Note: If there are any issues with Chrome Remote Desktop when following these steps, run `sudo apt-get --purge remove chrome-remote-desktop` to uninstall it and try again._
 
-Now, try to connect to the computer using Chrome Remote Desktop on another device signed in with the same Google account. You should see a simmilar message to the one shown in the image below:
+Now, try to connect to the computer using Chrome Remote Desktop on another device signed in with the same Google account. You should see a similar message to the one shown in the image below:
 
 <img width="400" src="https://user-images.githubusercontent.com/87048351/216847379-26bf946e-b132-4bdc-b1b5-82e8f96920f3.jpg">
 
@@ -28,7 +28,7 @@ Open the folder at `/opt/google/chrome-remote-desktop/` and make 2 copies of the
 
 Open the copy you made for editing in a text editor, and find the line that says `DEFAULT_SIZES`. Change this to the resolution of your screen. Example: `DEFAULT_SIZES = "1920x1080"`
 
-_Note: I don't reccomend editing the file in a terminal text editor like nano because the file is very large, so you may need to use Ctrl+F to find the lines you need to edit._
+_Note: I don't recommend editing the file in a terminal text editor like Nano because the file is very large, so you may need to use Ctrl+F to find the lines you need to edit._
 
 Now, open terminal and run `echo $DISPLAY`. Back in the `chrome-remote-desktop` file, find the line that says `FIRST_X_DISPLAY_NUMBER` and change it to the number returned by `echo $DISPLAY`. Example: `FIRST_X_DISPLAY_NUMBER = 0`
 
@@ -59,7 +59,7 @@ sudo /opt/google/chrome-remote-desktop/chrome-remote-desktop --start
 ```
 _Note: You should not delete the edited copy of the file, because updating Chrome Remote Desktop may undo or break the edits made to the `chrome-remote-desktop` file. If this ever happens, you **may** be able to repeat the commands above to fix it as long as you kept the edited file._
 
-To make sure this worked, connect to the computer again using Chrome Remote Desktop on another device signed in with the same Google account, and you **should not** see a message anymore about creating a new session. You should just see a mirror of what is currently on your screen, and be able to intereact with it. If your computer shows as offline, restart the computer and check again.
+To make sure this worked, connect to the computer again using Chrome Remote Desktop on another device signed in with the same Google account, and you **should not** see a message anymore about creating a new session. You should just see a mirror of what is currently on your screen, and be able to interact with it. If your computer shows as offline, restart the computer and check again.
 
 ## Sources
 
