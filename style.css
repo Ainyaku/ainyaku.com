@@ -86,7 +86,7 @@
   border-radius: 10px;
   margin-bottom: 5px;
   text-decoration: none;
-  background-color: rgb(2, 123, 123);
+  background-color: #0099e6;
 }
 .section {
   flex: 0 0 auto;
@@ -99,7 +99,7 @@
   flex-direction: column;
   padding-bottom: 15px;
   justify-content: center;
-  background-color: #00c0bd;
+  background-color: #4dc4ff;
 }
 .section-title {
   font-size: 32px;
