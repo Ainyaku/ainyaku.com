@@ -1,4 +1,4 @@
-.home-container {
+.home-container10 {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -7,7 +7,7 @@
   justify-content: flex-start;
   background-color: #80d5ff;
 }
-.home-container02 {
+.home-container12 {
   flex: 0 0 auto;
   display: flex;
   min-height: 80vh;
@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text {
+.home-text10 {
   color: var(--dl-color-gray-white);
   font-size: 15vw;
   font-family: "Alata";
@@ -30,7 +30,7 @@
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-.home-text01 {
+.home-text11 {
   width: auto;
   font-size: 45px;
   align-self: center;
@@ -43,7 +43,7 @@
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-.home-container03 {
+.home-container13 {
   gap: 5%;
   flex: 0 0 auto;
   width: 100%;
@@ -53,23 +53,29 @@
   padding-top: 50px;
   justify-content: center;
 }
-.home-container05 {
+.home-link10 {
+  text-decoration: none;
+}
+.home-link12 {
+  text-decoration: none;
+}
+.home-container15 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.home-container07 {
+.home-container17 {
   margin-bottom: 0px;
 }
-.home-container08 {
+.home-container18 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.home-container09 {
+.home-container19 {
   margin-top: 20px;
   align-items: flex-start;
   padding-top: 10px;
@@ -81,12 +87,12 @@
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-.home-iframe {
+.home-iframe1 {
   width: 383px;
   height: 394px;
   border-radius: var(--dl-radius-radius-radius4);
 }
-.home-container10 {
+.home-container20 {
   margin-top: 20px;
   align-items: flex-start;
   padding-top: 10px;
@@ -97,7 +103,7 @@
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
-.home-container11 {
+.home-container21 {
   flex: 0 0 auto;
   display: flex;
   margin-top: 12px;
@@ -111,11 +117,11 @@
   padding-bottom: 10px;
   background-color: var(--dl-color-gray-white);
 }
-.home-iframe1 {
+.home-iframe2 {
   width: 232px;
   height: 362px;
 }
-.home-container12 {
+.home-container22 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -123,14 +129,125 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-container13 {
+.home-container23 {
   margin-top: 20px;
   margin-bottom: 0px;
 }
-.home-link24 {
+.home-container24 {
+  gap: 5px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 646px;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  justify-content: center;
+}
+.home-link36 {
   display: contents;
 }
-.home-image {
+.home-image10 {
+  object-fit: cover;
+  text-decoration: none;
+}
+.home-link37 {
+  display: contents;
+}
+.home-image11 {
+  object-fit: cover;
+  text-decoration: none;
+}
+.home-link38 {
+  display: contents;
+}
+.home-image12 {
+  object-fit: cover;
+  text-decoration: none;
+}
+.home-link39 {
+  display: contents;
+}
+.home-image13 {
+  object-fit: cover;
+  text-decoration: none;
+}
+.home-image14 {
+  object-fit: cover;
+}
+.home-image15 {
+  object-fit: cover;
+}
+.home-image16 {
+  object-fit: cover;
+}
+.home-link40 {
+  display: contents;
+}
+.home-image17 {
+  object-fit: cover;
+  text-decoration: none;
+}
+.home-link41 {
+  display: contents;
+}
+.home-image18 {
+  object-fit: cover;
+  text-decoration: none;
+}
+.home-link42 {
+  display: contents;
+}
+.home-image19 {
+  object-fit: cover;
+  text-decoration: none;
+}
+.home-image20 {
+  object-fit: cover;
+}
+.home-image21 {
+  object-fit: cover;
+}
+.home-link43 {
+  display: contents;
+}
+.home-image22 {
+  object-fit: cover;
+  text-decoration: none;
+}
+.home-link44 {
+  display: contents;
+}
+.home-image23 {
+  object-fit: cover;
+  text-decoration: none;
+}
+.home-link45 {
+  display: contents;
+}
+.home-image24 {
+  object-fit: cover;
+  text-decoration: none;
+}
+.home-link46 {
+  display: contents;
+}
+.home-image25 {
+  object-fit: cover;
+  text-decoration: none;
+}
+.home-link47 {
+  display: contents;
+}
+.home-image26 {
+  object-fit: cover;
+  text-decoration: none;
+}
+.home-link48 {
+  display: contents;
+}
+.home-image27 {
   width: 300px;
   object-fit: cover;
   padding-top: 30px;
