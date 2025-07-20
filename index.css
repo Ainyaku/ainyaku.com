@@ -89,7 +89,7 @@
 }
 .home-iframe1 {
   width: 383px;
-  height: 394px;
+  height: 336px;
   border-radius: var(--dl-radius-radius-radius4);
 }
 .home-container20 {
@@ -119,7 +119,7 @@
 }
 .home-iframe2 {
   width: 232px;
-  height: 362px;
+  height: 304px;
 }
 .home-container22 {
   flex: 0 0 auto;
@@ -246,6 +246,10 @@
 }
 .home-link48 {
   display: contents;
+}
+.home-image28 {
+  width: 88px;
+  height: 31px;
 }
 .home-image27 {
   width: 300px;
