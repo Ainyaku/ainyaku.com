@@ -149,6 +149,8 @@
   display: contents;
 }
 .home-image10 {
+  width: 88px;
+  height: 31px;
   object-fit: cover;
   text-decoration: none;
 }
@@ -252,7 +254,7 @@
   height: 31px;
 }
 .home-image27 {
-  width: 300px;
+  width: 500px;
   object-fit: cover;
   padding-top: 30px;
   text-decoration: none;
